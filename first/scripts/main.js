@@ -3,7 +3,7 @@ let myHeading = document.querySelector('h1');
 function setUserName(){
 let myName = prompt('あなたの名前を入力してください。');
 localStorage.setItem('name',myName);
-        myHeading.textContent = 'Mozilla は素晴らしいよ。' + myName;
+        myHeading.textContent = 'Mozilla は素晴らしいよ、' + myName;
       }
       
       myButton.onclick = function(){
